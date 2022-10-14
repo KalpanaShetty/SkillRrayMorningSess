@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="sample2Neon.Neon3GlitTest">
+      <methods>
+      <include name="glit5NeonTest"></include>
+      </methods>
+      </class>
+      <class name="sample1Neon.Neon1GlitTest"/>
+      <class name="sample2Neon.Neon4GlitTest">
+      <methods>
+      <include name="glit8NeonTest"></include>
+      </methods>
+      </class>
+      <class name="sample1Neon.Neon2GlitTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
